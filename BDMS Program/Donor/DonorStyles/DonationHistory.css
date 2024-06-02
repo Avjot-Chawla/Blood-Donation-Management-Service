@@ -1,0 +1,48 @@
+.Contents{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 60px 0;
+    height: auto;
+    width: 100%;
+}
+
+.DonorHistoryTitle{
+    margin-left: 200px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.5px 0.5px 0.5px rgb(161, 154, 154);
+}
+
+.DonorTable{
+    display: flex;
+    margin: 5px 150px 5px 350px;
+    height: auto;
+    width: 1050px;
+    background-color: black;
+    color: black;
+}
+
+.TableHeader{
+    background-color: rgb(23, 162, 184);
+}
+
+.TableData{
+    background-color: rgb(227, 226, 226);
+}
+
+th,td{
+    padding: 5px 0 5px 10px;
+    height: 35px;
+    width: 200px;
+    text-align: left;
+}
+
+.Status{
+    width: fit-content;
+    margin: 5px;
+    padding: 6px;
+    color: white; 
+    background-color: rgb(33, 150, 243);
+}

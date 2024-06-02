@@ -1,0 +1,67 @@
+
+.menu {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    padding-top: 6px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 0, 0);
+    margin-left: 10px;
+    margin-right: 30px;
+    text-shadow: .4px .4px .4px rgb(235, 0, 0);
+}
+
+.ProjectTitle {
+    display: flex;
+    padding: 1px;
+    width: 1200px;
+    text-align: left;
+}
+
+.Home{
+    display: flex;
+    flex: 1;
+    padding: 1px;
+    max-width: fit-content;
+}
+
+.Patient{
+    display: flex;
+    flex: 1;
+    padding: 1px;
+    max-width: fit-content;
+}
+
+.Donor{
+    display: flex;
+    flex: 1;
+    padding: 1px;
+    max-width: fit-content;
+}
+
+.Amdin{
+    display: flex;
+    flex: 1;
+    padding: 1px;
+    max-width: fit-content;
+}

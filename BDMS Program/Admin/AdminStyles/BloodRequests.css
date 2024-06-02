@@ -1,0 +1,110 @@
+.Contents{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 60px 0;
+    height: auto;
+    width: 100%;
+}
+
+.Alert {
+    margin: 0 350px 0 500px;
+    padding: 12px 20px 10px 20px;
+    background-color: rgb(235, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+.Success{
+    margin: 0 350px 0 500px;
+    padding: 12px 20px 10px 20px;
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(11, 75, 11);
+    border-radius: 8px;
+}
+
+.Closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Closebtn:hover {
+    color: rgb(165, 165, 165);
+}
+
+.BloodRequestsTitle{
+    margin-left: 200px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.5px 0.5px 0.5px rgb(161, 154, 154);
+}
+
+.BloodRequestsTable{
+    display: flex;
+    margin: 5px 150px 5px 330px;
+    height: auto;
+    width: 1100px;
+    background-color: black;
+    color: black;
+}
+
+th,td{
+    padding: 5px 0 5px 10px;
+    height: 40px;
+    width: 220px;
+    text-align: left;
+    align-items: center;
+}
+
+td{
+    height: 50px;
+}
+
+.ActionButton{
+    height: 40px;
+    width: 90px;
+    margin-right: 10px;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    color: white; 
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.Approve{
+    background-color: rgb(0, 123, 255);
+}
+.Approve:hover{
+    background-color: rgb(0, 105, 217);
+}
+.Approve:active{
+    background-color: rgb(0, 84, 173);
+}
+
+.Reject{
+    background-color: rgb(220, 53, 69);
+}
+.Reject:hover{
+    background-color: rgb(200, 35, 51);
+}
+.Reject:active{
+    background-color: rgb(161, 29, 42);
+}

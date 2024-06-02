@@ -1,0 +1,34 @@
+.Contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: auto;
+}
+
+.InfoBox{
+    display: flex;
+    margin-left: 250px;
+    flex: 1;
+    height: 200px;
+}
+
+.DonorInfoBox{
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    border: 2px;
+    border-color: rgb(208, 213, 216);
+    border-style: solid;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.Rejected{
+    margin-right: 60px;
+}

@@ -1,0 +1,37 @@
+.Contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 245, 249);
+    margin: 0;
+    min-height: 663px;
+    height: auto;
+}
+
+.Line{
+    width: 98%;
+    height: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(203, 203, 203);
+}
+
+.InfoBox{
+    display: flex;
+    flex: 1;
+    height: auto;
+}
+
+.AdminInfoBox{
+    flex: 1;
+    margin: 10px 15px 10px 15px;
+    padding: 10px;
+    height: 100px;
+    border: 2px;
+    border-color: rgb(208, 213, 216);
+    border-style: solid;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}

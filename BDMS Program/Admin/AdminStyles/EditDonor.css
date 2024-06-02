@@ -1,0 +1,105 @@
+.Contents{
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+.Alert {
+    margin: 10px 300px 30px 500px;
+    padding: 12px 20px 10px 20px;
+    background-color: black;
+    color: rgb(237, 66, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(146, 29, 16);
+    border-radius: 8px;
+}
+
+.Closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Closebtn:hover {
+    color: rgb(165, 165, 165);
+}
+
+.EditDonorPage{
+    display: flex;
+    margin-left: 600px;
+    height: 620px;
+    width: 500px;
+    border: 1px;
+    border-color: rgb(208, 213, 216);
+    border-style: solid;
+    background-color: rgb(243, 245, 249);
+    border-radius: 5px;
+    color: black;
+}
+
+.EditDonorTitle{
+    display: block;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    color: rgb(235, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-shadow: 0.5px 0.5px 0.5px rgb(235, 0, 0);
+}
+
+.FormText{
+    flex: 1; 
+    margin: 10px; 
+    font-size: 18px;
+}
+
+.TextBoxes{
+    display: block;
+    flex: 1;
+    font-size: 15px;
+    margin: 27px 10px 37px 0;
+    padding: 2px;
+    align-content: center;
+    border-radius: 5px;
+    border-width: 1px;
+    text-shadow: 0.3px 0.3px 0.3px black;
+}
+
+.DropDownMenu{
+    font-size: 16px;
+    width: 190px;
+    margin: 25px 10px 37px 0;
+}
+
+.ConfirmButton{
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    color: rgb(237, 66, 47);
+    background-color: rgb(0, 0, 0);
+    text-shadow: 0.5px 0.5px 0.5px black;
+    transition: 0.3s; 
+    cursor: pointer;
+}
+
+.ConfirmButton:hover{
+    background-color: rgb(255, 93, 74);
+    color: rgb(0, 0, 0);
+}
+
+.ConfirmButton:active{
+    color: rgb(48, 48, 48);
+    background-color: rgb(237, 66, 47);
+}
